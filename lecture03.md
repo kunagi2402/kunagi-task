@@ -5,10 +5,10 @@
 以下がAPサーバー起動時と停止時のサイトへのアクセス結果の画像である。  
 
 起動時  
-![起動時画像](img/API-Server-Start.jp)
+![起動時画像](/img/API-Server-Start.jp)
 
 停止時、正しく表示されない  
-![停止時画像](img/API-Server-Stop.jp)
+![停止時画像](/img/API-Server-Stop.jp)
 
 
 ## DBサーバーについて
@@ -16,7 +16,7 @@
 以下がDBサーバー停止時のサイトへのアクセス結果の画像である  
 
 停止時、データベースのエラーがでる  
-![DB停止時画像](img/DB-Server-Stop.jp) 
+![DB停止時画像](/img/DB-Server-Stop.jp) 
 
 
 ## 課題から学んだこと、感じたこと
