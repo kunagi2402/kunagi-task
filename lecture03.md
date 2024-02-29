@@ -5,10 +5,10 @@
 以下がAPサーバー起動時と停止時のサイトへのアクセス結果の画像である。  
 
 起動時  
-![起動時画像](/img/API-Server-Start.jpg)
+![起動時画像](/img/lecture03/API-Server-Start.jpg)
 
 停止時、正しく表示されない  
-![停止時画像](/img/API-Server-Stop.jpg)
+![停止時画像](/img/lecture03/API-Server-Stop.jpg)
 
 
 ## DBサーバーについて
@@ -16,13 +16,13 @@
 以下がDBサーバー停止時のサイトへのアクセス結果の画像である  
 
 停止時、データベースのエラーがでる  
-![DB停止時画像](/img/DB-Server-Stop.jpg) 
+![DB停止時画像](/img/lecture03/DB-Server-Stop.jpg) 
 
 
 ## 課題から学んだこと、感じたこと
 今回はサンプルアプリのREAD MEの読み込みが足りず、bin/setupを使用しないでRailsのバージョン更新を  
 gemコマンドで行おうとして、上手くいかず詰まってしまった。  
-その後のsetuoを用いた環境構築でもyarnがインストールされておらず、setupを実行してアプリが正常に起動しない所で  
+その後のsetupを用いた環境構築でもyarnがインストールされておらず、setupを実行してアプリが正常に起動しない所で  
 詰まったりしてしまったが、Discordやリアルタイム講義での質問で起動ができた。
 
 
