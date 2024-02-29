@@ -6,22 +6,27 @@ IPv4アドレスの範囲は、RFC1918に準拠して192.168.0.0/16と設定。
 EC2のSSH接続と、RDSのEC2からのみ接続用のセキュリティーグループも作成。
 
 ![VPC](/img/lecture04/lecture04-vpc.jpg)  
-![EC2-Security](/img/lecture04/lucture04-security-ec2.jpg)  
+
+![EC2-Security](/img/lecture04/lucture04-security-ec2.jpg) 
+
 ![RDS-Security](/img/lecture04/lucture04-security-rds.jpg)  
 
 ## EC2の作成
 パブリックサブネット上に作成。  
 新規キーペアを作成。
 
-![EC2](/img/lecture04/lucture04-ec2.jpg)  
-![EC2-keypair](/img/lecture04/lucture04-ec2-keypair.jpg)  
+![EC2](/img/lecture04/lucture04-ec2.jpg) 
+
+![EC2-keypair](/img/lecture04/lecture04-ec2-keypair.jpg)  
 
 
 ## RDSの作成
 プライベートサブネット上にMySQLエンジンを使用して作成。  
 
 ![RDS](/img/lecture04/lecture04-rds1.jpg)  
-![RDS2](/img/lecture04/lecture04-rds2.jpg)  
+
+![RDS2](/img/lecture04/lecture04-rds2.jpg) 
+
 ![RDS3](/img/lecture04/lecture04-subnetgroup.jpg)  
 
 ## ローカル環境からEC2を経由してRDSにログイン
