@@ -39,9 +39,9 @@ Nginxとunicornをデプロイした状態でブラウザからのアクセス�
 
 ![Nginx](/img/lecture05/Nginx.conf.jpg)  
 
-![Nginx2](/img/lecture05/Nginx-start.jpg)  
+![Nginx2](/img/lecture05/nginx-start.jpg)  
   
-![Nginx3](/img/lecture05/unicorn2.jpg) 
+![Nginx3](/img/lecture05/unicorn.rb2.jpg) 
 
 ![Nginx4](/img/lecture05/NginxtoUnicorn-Start.jpg)  
 
